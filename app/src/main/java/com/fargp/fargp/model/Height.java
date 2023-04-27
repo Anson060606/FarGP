@@ -1,14 +1,14 @@
-package com.fargp.fargp;
+package com.fargp.fargp.model;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ResearchSystem extends AppCompatActivity {
+public class Height extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_research_system);
+        //setContentView(R.layout.activity_height);
     }
 }

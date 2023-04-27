@@ -25,7 +25,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="36dp"
         android:text="Type"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName4"
+        app:layout_constraintStart_toEndOf="@+id/TypeN1"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
@@ -47,7 +47,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="27dp"
         android:text="Scientific Name"
-        app:layout_constraintStart_toEndOf="@+id/SciencetificN1"
+        app:layout_constraintStart_toEndOf="@+id/ScientificN1"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <EditText
@@ -63,7 +63,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/TypeN1"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
@@ -74,7 +74,7 @@
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/SciencetificN1"
+        app:layout_constraintTop_toBottomOf="@+id/ScientificN1"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
@@ -83,18 +83,19 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginTop="88dp"
+        android:onClick="onClickSave"
         android:text="SAVE"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintTop_toBottomOf="@+id/TypeN1" />
 
     <EditText
-        android:id="@+id/SciencetificN1"
+        android:id="@+id/ScientificN1"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:ems="10"
-        android:hint="Scienific Name"
+        android:hint="Scientific Name"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PlantN1" />

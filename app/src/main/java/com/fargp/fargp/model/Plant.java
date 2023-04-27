@@ -16,6 +16,8 @@ public class Plant {
 
     }
 
+    public Plant() {}
+
     public String getName() {
         return name;
     }
