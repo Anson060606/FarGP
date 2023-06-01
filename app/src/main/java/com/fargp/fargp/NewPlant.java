@@ -57,3 +57,4 @@ public class NewPlant extends AppCompatActivity {
     //ToDo: load the information edited.
 }
 //ToDo: the intent, make sure the ui can switch by the button
+
